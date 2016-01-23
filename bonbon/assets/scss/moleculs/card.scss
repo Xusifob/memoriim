@@ -1,0 +1,38 @@
+.card{
+  display: inline-block;
+  margin-left:5px;
+  margin-right:5px;
+  margin-top:5px;
+  cursor: pointer;
+  position: relative;
+  border-radius: 5px;
+  border: 4px solid #fff;
+
+  &.level-10,&.level-9,&.level-8{
+    border: 2px solid #fff;
+    padding: 2px;
+    &.level-9,&.level-8{
+      p{
+        font-size: 12px;
+      }
+    }
+    &.level-10{
+      margin-left:2px;
+      margin-right:2px;
+      margin-top:2px;
+      border-radius: 2px;
+      p{
+        font-size: 9px;
+      }
+    }
+  }
+
+  p{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    margin:0;
+  }
+}

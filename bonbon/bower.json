@@ -1,0 +1,26 @@
+{
+  "name": "Appartoo V2 Web App",
+  "version": "0.0.1",
+  "authors": [
+    "Youssef El Montaser <ye@elmontaser.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs",
+    "test",
+    "tests",
+    ".idea"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "~0.13.4",
+    "bootstrap": "~3.3.5",
+    "restangular": "~1.5.1",
+    "font-awesome": "~4.5.0",
+    "angular-material": "~1.0.1",
+    "angular-material-icons": "~0.6.0",
+    "angular-ui-router": "~0.2.15"
+  }
+}

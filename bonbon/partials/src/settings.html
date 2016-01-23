@@ -1,0 +1,13 @@
+<a href="#/" class="home">
+    <i class="fa fa-home"></i>
+</a>
+<h2>Paramètres</h2>
+<div class="mg-top-25">
+    <input type="checkbox" id="devMode" ng-change="Hc.SettingsService.changeSetting()" ng-model="Hc.SettingsService.settings.devMode">
+    <label for="devMode">
+        <i class="fa fa-check"></i>
+    </label>
+    <label for="devMode" class="txt">Mode développeur</label>
+    <p class="rein" ng-class="Hc.rein ? 'active' : ''">Le jeu a bien été réinitialisé</p>
+    <button ng-click="Hc.reinitialisate()" class="reinitialiser">Réinitialiser le jeu</button>
+</div>

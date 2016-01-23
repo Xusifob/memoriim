@@ -1,0 +1,28 @@
+json{
+  .panel-group {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+    z-index: 9;
+    .panel-heading {
+      @extend .txt-white;
+      @extend .background-green;
+      padding: 0;
+    }
+
+    .panel-title{
+      a{
+        width: 100%;
+        display: block;
+        padding: 10px;
+      }
+    }
+
+    .panel-body{
+      max-height: 450px;
+      overflow-y: scroll;
+    }
+  }
+}

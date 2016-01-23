@@ -1,0 +1,14 @@
+{
+  "name": "angular-material-icons",
+  "homepage": "https://github.com/klarsys/angular-material-icons",
+  "version": "0.6.0",
+  "_release": "0.6.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.6.0",
+    "commit": "f3b9e56e06a573df6c210fdccece139cb50a0d81"
+  },
+  "_source": "git://github.com/klarsys/angular-material-icons.git",
+  "_target": "~0.6.0",
+  "_originalSource": "angular-material-icons"
+}

@@ -1,0 +1,75 @@
+$grey : #333;
+
+a{
+  outline : none;
+  &:hover,&:focus,&:active,&:visited{
+    outline:none;
+  }
+}
+
+.level-button{
+  color: $grey;
+  background: $green;
+  width:70px;
+  height:70px;
+  text-align: center;
+  border:3px solid $grey;
+  border-radius:8px;
+  float: left;
+  margin:10px;
+  display: block;
+  line-height: 70px;
+  text-decoration: none;
+  &:hover,&:visited{
+    text-decoration: none;
+  }
+  &.finished{
+    border:3px solid #ffe300;
+    color: #ffe300;
+  }
+  i{
+    position: absolute;
+    bottom:2px;
+    font-size:1.5em;
+    right:2px;
+  }
+  position: relative;
+}
+
+
+.classment,.levels,.settings,.home,.play,.home-logo{
+  position: absolute;
+  color: #fff;
+  &:hover,&:visited,&:active,&:focus{
+    color: #fff;
+  }
+}
+
+.settings{
+  font-size: 1.5em;
+  right:1%;
+  top:1%;
+}
+
+.classment{
+  right: 30%;
+  font-size: 2.5em;
+  top: 40%;
+}
+.levels{
+  left:30%;
+  font-size: 2.5em;
+  top: 40%;
+}
+
+.play{
+  top:60%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+.home{
+  font-size:2.5em;
+  left:1%;
+  top:1%;
+}

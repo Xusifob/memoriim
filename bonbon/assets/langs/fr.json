@@ -1,0 +1,294 @@
+{
+  "home": {
+    "title_home"      :  "La meilleure façon de trouver un (co)locataire et un appartement paris",
+    "subtitle_home"   :    "Rencontrez des milliers de candidats et faites votre choix",
+    "button_search"   :    "Je recherche un logement",
+    "button_propose"  :  "Je propose un logement",
+    "search_title"    :    "Vous cherchez un (co)locataire ?",
+    "search_content"  :  "Inscrivez-vous dès aujourd'hui et trouvez votre (co)locataire idéal. Appartoo se charge de trouver le (co)locataire avec qui partager votre appartement.",
+    "propose_title"   :   "Vous proposez une chambre?",
+    "propose_content"   : "Parfait! Vous pouvez vous inscrire et découvrir des centaines de (co)locataires avec qui discuter, vivre et partager le loyer de votre appartement.",
+    "agent_title"    :  "Vous êtes agent immobilier ?",
+    "agent_content" : "Appartoo selectionne pour vous les candidats les plus fiables et vous aide à trouver des prospects qualifiés pour vos appartements.",
+    "propose_title_2" : "Je propose un logement",
+    "propose_content_2" : "Vous proposez un logement à Paris Publiez votre annonce de logement sur notre site Sur Appartoo vous allez trouver la personne qui correspond à vos critères !",
+    "poster_button" : "Poster un logement",
+    "now_on_appartoo" : "En ce moment sur appartoo à ",
+    "see_profile" : "voir le profil",
+    "recommendation" : "Ils recommandent Appartoo ",
+    "contact_title" : "Contactez nous",
+    "contact_content" : "N'hésitez pas à nous poser une question !",
+    "contact_coordonnees" : "Nos coordonnées",
+    "visit_us_title" : "Venez nous rendre visite",
+    "visit_us_content" : "Nous serions heureux de vous accueillir dans nos locaux à Paris pour vous présenter notre équipe.",
+    "search_home" : "Recherchez une ville"
+  },
+
+  "cookie" : {
+    "text" : "Les cookies nous permettent de vous proposer nos services plus facilement. En utilisant nos services, vous nous donnez expressément votre accord pour exploiter ces cookies.",
+    "button" : "OK",
+    "more" : "En savoir plus"
+  },
+
+  "inscription" : {
+    "title" : "Inscrivez vous",
+    "title_message" : "Inscrivez vous pour pouvoir envoyer un message",
+    "facebook" : "S'inscrire avec facebook",
+    "or" : "ou",
+    "form_button" : "S'inscrire",
+    "already_account" : "J'ai déjà un compte",
+    "read_and_accept" : "J'ai lu et j'accepte les",
+    "cgv" : "conditions générales de vente",
+    "done" : "Inscription bien prise en compte"
+  },
+
+
+  "connexion" : {
+    "title" : "Connectez vous",
+    "title_message" : "Connectez vous pour pouvoir envoyer un message",
+    "facebook" : "Se connecter avec Facebook",
+    "form_button" : "Se connecter",
+    "password_forgot" : "Mot de passe oublié",
+    "no_account" : "Je ne suis pas encore inscrit"
+  },
+
+  "message" : {
+    "new_message_for" : "Nouveau message pour"
+  },
+
+  "error" : {
+    "message_empty" : "Le message ne peut être vide",
+    "password" :"Veuillez entrer un mot de passe",
+    "repeat_password" : "Veuillez retaper votre mot de passe",
+    "not_same_password" : "Les mots de passe doivent être identiques",
+    "cgv" : "Veuillez accepter les conditions générales de vente",
+    "first_name" : "Veuillez entrer un prénom",
+    "last_name" : "Veuillez entrer un nom",
+    "email" : "Veuillez entrer un e-mail"
+  },
+
+
+  "form" : {
+    "name" : "Nom",
+    "surname" : "Prénom",
+    "mail" : "E-mail",
+    "password" : "Mot de passe",
+    "message" : "Message",
+    "confirm_password" : "Confirmez votre mot de passe",
+    "send" : "Envoyer",
+    "error" : "Erreur",
+    "phone" : "Téléphone",
+    "birthday" : "Date de naissance",
+    "day" : "Jour",
+    "month" : "Mois",
+    "year" : "Année",
+    "update_infos" : "Mettre à jour mes informations"
+  },
+
+
+  "navbar" : {
+    "disconnected" : {
+      "inscription" : "Inscription",
+      "connexion" : "Connexion"
+    },
+    "connected" : {
+      "disconnect" : "Déconnexion",
+      "public_profil" : "Profil public",
+      "coords" : "Coordonnées",
+      "dashboard" : "Tableau de bord",
+      "messages" : "Messages",
+      "annonces" : "Mes annonces"
+    },
+    "home" : "Accueil",
+    "how_it_works" : "Comment ça marche ?",
+    "search" : "Ville, Région...",
+    "propose" : "Proposer une collocation"
+  },
+
+  "annonces" : {
+    "annonces" : "Mes annonces"
+  },
+
+  "annonce" : {
+    "conversation" : "Voir la conversation liée à l'annonce"
+  },
+
+  "dashboard" : {
+    "year" : "ans",
+    "answer" : "de réponse",
+    "configuration" : "Configurez votre compte",
+    "complete" : "Complétez votre profil",
+    "add" : "Ajouter",
+    "yes" : "Oui",
+    "no" : "Non",
+    "unread_messages" : "Messages non lus",
+    "no_new_messages" : "Vous n'avez pas de nouveaux messages",
+    "see_all_messages" : "Voir tous les messages",
+    "my_badges" : "Mes Badges",
+    "get_new_badges" : "Obtenir de nouveaux badges",
+    "my_announce" : "Mon annonce",
+    "no_annonce" : "Vous n'avez pas encore d'annonce, ajoutez en une dès à présent.",
+    "update_announce" : "Modifier mon annonce",
+    "add_announce" : "Ajouter une annonce",
+
+
+    "badges" : {
+      "isSmoker" : "Fumeur",
+      "isCook" : "Cuisinier",
+      "isMusician" : "Musicien",
+      "isSpendthrift" : "Dépensier",
+      "isPartyGoer" : "Fétard",
+      "isLayabout" : "Glandeur",
+      "isGeek" : "Geek",
+      "isTraveller" : "Voyageur",
+      "isGenerous" : "Généreux",
+      "isAnimalFriend" : "Ami des animaux",
+      "isMessy" : "Bordélique",
+      "isManiac" : "Maniaque",
+      "acceptAnimal" : "Accepte les animaux"
+    },
+
+
+    "panelData" : {
+      "isSmoker": {
+        "type": "boolean",
+        "value": "Êtes vous fumeur ?"
+      },
+      "isCook": {
+        "type": "boolean",
+        "value": "Êtes vous un bon cuisinier ?"
+      },
+      "isMusician": {
+        "type": "boolean",
+        "value": "Êtes vous musicien ?",
+        "property": "isMusician"
+      },
+      "isSpendthrift": {
+        "type": "boolean",
+        "value": "Êtes vous dépensier ?"
+      },
+      "isPartyGoer": {
+        "type": "boolean",
+        "value": "Aimez vous faire la fête ?"
+      },
+      "isLayabout": {
+        "type": "boolean",
+        "value": "Êtes vous paresseux ?"
+      },
+      "inRelationship": {
+        "type": "boolean",
+        "value": "Êtes vous en couple ?"
+      },
+      "isGeek": {
+        "type": "boolean",
+        "value": "Êtes vous geek ?"
+      },
+      "isTraveller": {
+        "type": "boolean",
+        "value": "Aimez vous voyager ?"
+      },
+      "isGenerous": {
+        "type": "boolean",
+        "value": "Êyes vous généreux ?"
+      },
+      "isAnimalFriend": {
+        "type": "boolean",
+        "value": "Aimez vous les animaux ?"
+      },
+      "isMessy": {
+        "type": "boolean",
+        "value": "Etes vous bordélique ?"
+      },
+      "isManiac": {
+        "type": "boolean",
+        "value": "Etes vous maniaque ?"
+      },
+      "acceptAnimal": {
+        "type": "boolean",
+        "value": "Acceptez vous les animaux ?"
+      },
+      "telephone": {
+        "title": "Téléphone",
+        "placeholder": "Ajoutez votre numéro de téléphone",
+        "type": "input"
+      },
+      "jobTitle": {
+        "title": "Emploi",
+        "placeholder": "Ajoutez votre situation professionnelle",
+        "type": "input"
+      },
+      "address": {
+        "title": "Adresse",
+        "placeholder": "Ajoutez votre adresse",
+        "type": "address"
+      },
+      "gender": {
+        "title": "Genre",
+        "placeholder": "Selectionnez un genre",
+        "type": "select",
+        "options": [
+          {
+            "value": "homme",
+            "placeholder": "Homme"
+          },
+          {
+            "value": "femme",
+            "placeholder": "Femme"
+          },
+          {
+            "value": null,
+            "placeholder": "Ne se prononce pas"
+          }
+        ]
+      },
+      "relationshipStatus": {
+        "title": "Genre",
+        "placeholder": "Selectionnez un genre",
+        "type": "select",
+        "options": [
+          {
+            "value": "En couple",
+            "placeholder": "En couple"
+          },
+          {
+            "value": "Célibataire",
+            "placeholder": "Célibataire"
+          },
+          {
+            "value": null,
+            "placeholder": "Ne se prononce pas"
+          }
+        ]
+      },
+      "description": {
+        "title": "Description",
+        "placeholder": "Ajoutez une petite description de vous",
+        "type": "textarea"
+      }
+    }
+  },
+
+
+  "conversations" : {
+    "messages" : "Messages",
+    "search" : "Rechercher...",
+    "delete" : "Supprimer",
+    "delete_conversation" : "Etes vous sur de vouloir supprimer cette conversation ?",
+    "no_conversation" : "Vous n'avez aucune conversation",
+    "actions" : "Actions",
+    "update_name" : "Modifier le nom de la conversation",
+    "see_members" : "Voir les membres de la conversation",
+    "leave" : "Quitter la conversation",
+    "load_more" : "Charger plus",
+    "search_in_conv" : "Rechercher dans la conversation",
+    "delete_message" : "Etes vous sur de vouloir supprimer ce message ?",
+    "enter_to_send" : "Entrée pour envoyer ",
+    "leave_message" : "Êtes vous sur de vouloir quitter cette conversation ?"
+  },
+  "coordonnees" : {
+    "my_infos" : "Mes coordonnées",
+    "info_principal" : "Informations principales",
+    "confident" : "Confidentialités et mot de passe",
+    "more_infos" : "Informations complémentaires"
+  }
+}

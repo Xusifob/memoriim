@@ -1,0 +1,30 @@
+.modal{
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color: rgba(0,0,0,0.5);
+  .modal-content{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: $green;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    height: 40%;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  p{
+    margin:5px;
+
+  }
+  h2{
+    margin-top:0;
+  }
+  h3{
+    font-weight:400;
+  }
+}

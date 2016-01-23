@@ -1,0 +1,11 @@
+p{
+  &.rein{
+    color: #fff;
+    width:95%;
+    margin:35px auto 10px auto;
+    opacity:0;
+    &.active{
+      opacity:1;
+    }
+  }
+}

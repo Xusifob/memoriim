@@ -1,0 +1,43 @@
+<div class="card level-{{Hc.currentLevel}}"
+     ng-style="{
+     'margin-left' : $index == Hc.jumpIndex ? (Hc.cardWidth + Hc.margin*1.5 +8) + 'px' : '',
+     'background-color' : card.turn ? card.color : '#ed7e00',
+     'width':Hc.cardWidth + 'px',
+     'height':Hc.cardHeight + 'px'}"
+
+     ng-click="Hc.click(card,$index)"
+     ng-repeat="card in Hc.cards track by $index">
+    <p ng-if="card.turn">{{card.color}}</p>
+</div>
+
+<div class="score score-{{Hc.currentLevel}}"
+     ng-style="{
+     'width':Hc.cardWidth + 'px',
+     'height':Hc.cardHeight + 'px'}
+     ">
+    <p ng-if="Hc.currentLevel < 9">Niveau {{Hc.currentLevel}}</p>
+    <p ng-if="Hc.currentLevel >= 9">Niv {{Hc.currentLevel}}</p>
+    <p ng-if="Hc.currentLevel < 9">Coups {{Hc.nbClick}}</p>
+    <p ng-if="Hc.currentLevel < 9">Reflexion {{Hc.thinkTime/1000}}s</p>
+    <p ng-if="Hc.currentLevel < 9">Score {{Hc.score}}</p>
+    <p ng-if="Hc.currentLevel >= 9">Sc {{Hc.score}}</p>
+</div>
+<div class="logo logo-{{Hc.currentLevel}}"
+     ng-style="{
+     'width':Hc.cardWidth + 'px',
+     'height':Hc.cardHeight + 'px'}
+     ">
+    <a href="#/" class="home-logo">
+        <i class="fa fa-home"></i>
+    </a>
+</div>
+
+<div class="modal" ng-if="Hc.modalShow">
+    <div class="modal-content">
+        <h2>Niveau {{Hc.currentLevel}} terminé</h2>
+        <h3>Score : {{Hc.score}}</h3>
+        <p>Nombre de coups : {{Hc.nbClick}}</p>
+        <p>Temps de reflexion : {{Hc.thinkTime/1000}}s</p>
+        <i class="fa fa-arrow-circle-o-right next fa-4x" ng-click="Hc.nextLevel()"></i>
+    </div>
+</div>
